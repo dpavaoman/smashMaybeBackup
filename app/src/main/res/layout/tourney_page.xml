@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ProgressBar
+
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="visible"
+            android:layout_below="@+id/tourney_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="116dp" />
+
+
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/activity_horizontal_margin"/>
+        <ImageView
+            android:id="@+id/bannerG1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cropToPadding="true"
+            android:layout_below="@+id/banner"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:id="@+id/bannerG2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cropToPadding="true"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_below="@+id/banner"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@+id/tourney_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:paddingTop="16dp"
+            android:paddingStart="16dp"
+            android:layout_below="@+id/gameName1"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/gameName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bannerG1"
+            android:layout_alignParentStart="true" />
+
+    <TextSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+
+</RelativeLayout>
+
+
+
+
+

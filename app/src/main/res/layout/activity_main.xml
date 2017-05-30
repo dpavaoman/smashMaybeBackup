@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tournament_slug_text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="75dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:foregroundGravity="top|center_vertical"
+        android:src="@drawable/smash_gg_icon_white"
+        android:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/tournament_slug_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/queryButton"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="27dp"
+        android:hint="@string/enter_tourney"
+        android:inputType="textUri"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/queryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="end"
+        android:layout_marginBottom="111dp"
+        android:elevation="0dp"
+        android:fadingEdge="horizontal|vertical"
+        android:onClick="retrieval"
+        android:text="@string/search_button" />
+
+
+
+
+</RelativeLayout>

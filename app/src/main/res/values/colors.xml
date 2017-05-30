@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="primary_material_light">#c7393a</color>
+    <color name="background_material_light">#c5393b</color>
+    <color name="accent_material_light">#c7393a</color>
+    <color name="melee">#f44336</color>
+    <color name="wiiu">#03a9f4</color>
+</resources>

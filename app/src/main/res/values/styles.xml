@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorAccent">@color/accent_material_light</item>
+    </style>
+
+    <style name="landing_page" parent="android:Theme.Material.NoActionBar">
+
+        <item name="android:colorPrimary">@color/primary_material_light</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:colorAccent">@color/cardview_light_background</item>
+
+
+    </style>
+
+    <style name="tournament_page" parent="Theme.AppCompat.Light"
+        >
+
+
+
+    </style>
+
+
+
+</resources>

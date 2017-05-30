@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">smashMaybe</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="button_send">Send</string>
+    <string name="hello_world">Hello World</string>
+    <string name="enter_tourney">Enter Tournament Slug Here</string>
+    <string name="search_button">Search</string>
+    <string name="keep_going">Continue</string>
+    <string name="title_activity_event_view">event_view</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
